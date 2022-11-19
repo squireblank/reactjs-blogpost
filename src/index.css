@@ -54,6 +54,8 @@ ul {
 
 header {
   padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(127, 208, 255);
 }
 
@@ -162,10 +164,16 @@ nav {
   opacity: 0.9;
 }
 
-.no-post-msg {
+.no-post-msg,
+.loading-msg,
+.error-msg {
   margin: 0.8rem;
   font-size: 1.3rem;
   color: rgb(139, 0, 0);
+}
+
+.loading-msg {
+  color: green;
 }
 
 .add-post-form {
